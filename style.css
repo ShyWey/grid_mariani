@@ -1,4 +1,8 @@
- .main{
+body {
+  font-family: monospace;
+  color: black;
+}
+.main{
     display:flex;
     gap: 2px;
     min-height: 100vh;
@@ -9,12 +13,12 @@
     padding: 12px 24px;
   }
   .main .sidebar{
-    background: rgb(133,215,239);
+    background: rgb(159, 217, 235);
     flex: 1;
     margin: 2PX solid black;
   }
   .main .cont{
-    background: rgb(193,219,210);
+    background: rgb(164, 240, 213);
     flex: 8;
   }
   ul{
